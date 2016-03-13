@@ -1,0 +1,21 @@
+* Initial development tasks
+** TODO Get documentation with sphinx set up
+** TODO Get virtualenv set up
+Will probably use the following packages:
+- Scipy to help with curve fitting and chi square optimization
+- 
+
+** TODO Establish API for the following:
+- [ ] Curve fitting function - take data in and generate a four-param fit
+- [ ] Given four-param values, start, stop, and step size, generate values
+** TODO Tests for the curve fit
+Probably the hardest part, because there are multiple test cases
+- [ ] Exact fit
+- [ ] Bad fit
+- [ ] Good fit
+These all need to be done manually
+** TODO Test for the functions value
+** TODO Design a PyQt interface which uses the different bits:
+- [ ] Not sure how to load data into the app
+- [ ] Load data, fit a best fit, plot and note it all
+- [ ] Plot it
